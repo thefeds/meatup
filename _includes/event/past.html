@@ -1,0 +1,10 @@
+
+<ol class="secret-list">
+    {% for event in site.data.events reversed %}
+        {% unless forloop.first %}
+            <li>
+                {% include event/event.html %}
+            </li>
+        {% endunless %}
+    {% endfor %}
+</ol>

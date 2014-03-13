@@ -1,0 +1,9 @@
+
+{% assign people = site.data.people | sort: 'tally' %}
+<ol>
+    {% for person in people reversed %}
+        <li>
+            <b>{{person.name}}:</b> {{person.tally}} attendances</b>
+        </li>
+    {% endfor %}
+</ol>

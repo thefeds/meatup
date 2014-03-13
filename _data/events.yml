@@ -1,0 +1,25 @@
+
+# List of past MEATup events.
+
+# MEATup the first
+- id: 1
+  date: 2014-02-13
+  url: http://attending.io/events/fed-meatup-1
+  venue:
+    name: Honest Burgers
+    website: http://honestburgers.co.uk/
+
+# MEATup the second
+- id: 2
+  date: 2014-03-13
+  url: http://attending.io/events/fed-meatup-2
+  venue:
+    name: Red Dog Saloon
+    website: http://www.reddogsaloon.co.uk/
+
+# MEATup the third
+- id: 3
+  date: 2014-04-10
+  url: http://attending.io/events/fed-meatup-3
+  venue:
+    name: Undecided

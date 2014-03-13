@@ -1,0 +1,15 @@
+
+<div id="meatup-{{event.id}}">
+    <h3>MEATup #{{event.id}}</h3>
+    <p>
+        {{event.date | date: '%A %d %B, %Y'}}
+        at
+        {% if event.venue.website %}
+            <a href="{{event.venue.website}}">{{ event.venue.name }}</a>.
+        {% else %}
+            {{event.venue.name}}.
+        {% endif %}
+        <br/>
+        <a href="{{event.url}}">View the event page</a>.
+    </p>
+</div>
