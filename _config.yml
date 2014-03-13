@@ -1,0 +1,16 @@
+
+# Site details
+lang: en
+hostname: meatup.info
+
+# Jekyll config
+exclude:
+  - CNAME
+  - Makefile
+  - README.md
+future: false
+lsi: false
+permalink: /posts/:title/
+pygments: true
+safe: true
+timezone: Europe/London
