@@ -1,53 +1,74 @@
 
 # List of MEATup attendees.
 
+# name = the name of the attendee
+# score = the number of MEATups attended
+# attended = an array of event IDs which were attended
+
 - name: Adam
-  tally: 2
+  score: 2
+  attended: [1, 2]
 
 - name: Alex
-  tally: 1
+  score: 1
+  attended: [1]
 
 - name: Andrew
-  tally: 2
+  score: 2
+  attended: [1, 2]
 
 - name: Dan
-  tally: 0
+  score: 0
+  attended: []
 
 - name: Dawn
-  tally: 1
+  score: 1
+  attended: [2]
 
 - name: Glynn
-  tally: 2
+  score: 2
+  attended: [1, 2]
 
 - name: Hollie
-  tally: 1
+  score: 0
+  attended: []
 
 - name: Jack
-  tally: 0
+  score: 0
+  attended: []
 
 - name: Jose
-  tally: 0
+  score: 0
+  attended: []
 
 - name: Jude
-  tally: 0
+  score: 0
+  attended: []
 
 - name: Laura
-  tally: 0
+  score: 0
+  attended: []
 
 - name: Luke
-  tally: 1
+  score: 1
+  attended: [1]
 
 - name: Nick
-  tally: 2
+  score: 2
+  attended: [1, 2]
 
 - name: Perry
-  tally: 1
+  score: 1
+  attended: [1]
 
 - name: Phil
-  tally: 0
+  score: 0
+  attended: []
 
 - name: Rowan
-  tally: 2
+  score: 2
+  attended: [1, 2]
 
 - name: Sam
-  tally: 1
+  score: 1
+  attended: [2]

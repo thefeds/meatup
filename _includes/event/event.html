@@ -12,4 +12,14 @@
         <br/>
         <a href="{{event.url}}">View the event page</a>.
     </p>
+    {% if include.ended %}
+        <h4>Attendees</h4>
+        <ul>
+            {% for person in site.data.people %}
+                {% if person.attended contains event.id %}
+                    <li>{{person.name}}</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    {% endif %}
 </div>

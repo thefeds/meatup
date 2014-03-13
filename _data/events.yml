@@ -1,6 +1,12 @@
 
 # List of past MEATup events.
 
+# id = the ID of the MEATup, just the event number really
+# date = the date of the MEATup in YYYY-MM-DD format
+# url = the event page URL on attending.io
+# venue.name = the name of the venue (or "Undecided")
+# venue.website = (optional) the venue website
+
 # MEATup the first
 - id: 1
   date: 2014-02-13

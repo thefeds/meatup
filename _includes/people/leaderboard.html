@@ -1,9 +1,9 @@
 
-{% assign people = site.data.people | sort: 'tally' %}
+{% assign people = site.data.people | sort: 'score' %}
 <ol>
     {% for person in people reversed %}
         <li>
-            <b>{{person.name}}:</b> {{person.tally}} attendances</b>
+            <b>{{person.name}}:</b> {{person.score}}</b>
         </li>
     {% endfor %}
 </ol>
