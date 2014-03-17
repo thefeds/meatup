@@ -2,73 +2,91 @@
 # List of MEATup attendees.
 
 # name = the name of the attendee
+# gravatar = an md5 hash of the attendee's email address (for creating gravatar URL)
 # score = the number of MEATups attended
 # attended = an array of event IDs which were attended
 
 - name: Adam
+  gravatar: 3136b684c4b781915b61b6c600d426ab
   score: 2
   attended: [1, 2]
 
 - name: Alex
+  gravatar: b9b142c0c1d118390b605dd14bf87f2c
   score: 1
   attended: [1]
 
 - name: Andrew
+  gravatar: f098cc175d4c424ceab347f897e08bf5
   score: 2
   attended: [1, 2]
 
 - name: Dan
+  gravatar: bee5843b9118e5b869d908d13bf1dab5
   score: 0
   attended: []
 
 - name: Dawn
+  gravatar: 423289d7cd194dcf439a0f9dd6087bca
   score: 1
   attended: [2]
 
 - name: Glynn
+  gravatar: 1fb120f261d488bd708243ab07c16a6e
   score: 2
   attended: [1, 2]
 
 - name: Hollie
+  gravatar: 885b97e01afa8715d4d27b4343e24cc1
   score: 0
   attended: []
 
 - name: Jack
+  gravatar: e7efe42a13b08f7b0c25f735b710882c
   score: 0
   attended: []
 
 - name: Jose
+  gravatar: 69ee153df5bde2f63d63b463be459e1d
   score: 0
   attended: []
 
 - name: Jude
+  gravatar: 0abba8c023667a16e939e2d6ada9eb5a
   score: 0
   attended: []
 
 - name: Laura
+  gravatar: ca5f4087c5885d15d99eaee223a655ab
   score: 0
   attended: []
 
 - name: Luke
+  gravatar: ff11381944f2d57133bcb7030d22e6c3
   score: 1
   attended: [1]
 
 - name: Nick
+  gravatar: 817e0147892e552d0dca7963f87db64c
   score: 2
   attended: [1, 2]
 
 - name: Perry
+  gravatar: bf2038b1c3492a00dde1b78dd13495bf
   score: 1
   attended: [1]
 
 - name: Phil
+  gravatar: 6b280328ebb187f206ac98c07c8f31db
   score: 0
   attended: []
 
 - name: Rowan
+  gravatar: f26aa0910feb115695cbbe8e0ce77db0
   score: 2
   attended: [1, 2]
 
 - name: Sam
+  gravatar: 635ed9558eab9d8fe26a6ce195fe3e5a
   score: 1
   attended: [2]
