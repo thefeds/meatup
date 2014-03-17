@@ -1,1 +1,58 @@
-<iframe class="past-map" src="https://mapsengine.google.com/map/embed?mid=zGbE2jKzDt_k.kgqSgkvmX9NE"></iframe>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyB_sDtkFpFLp8VWghrQIymQrXSKT-ActHE&sensor=false"></script>
+<script>
+    function initialize() {;
+        var mapOptions = {
+            zoom: 11,
+            styles: [
+                {
+                    "stylers": [
+                        {
+                            "saturation": -100
+                        },
+                        {
+                            "gamma": 0.8
+                        },
+                        {
+                            "lightness": 4
+                        },
+                        {
+                            "visibility": "on"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape.natural",
+                    "stylers": [
+                        {
+                            "visibility": "on"
+                        },
+                        {
+                            "color": "#5dff00"
+                        },
+                        {
+                            "gamma": 4.97
+                        },
+                        {
+                            "lightness": -5
+                        },
+                        {
+                            "saturation": 100
+                        }
+                    ]
+                }
+            ]
+        }
+
+        var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+        var ctaLayer = new google.maps.KmlLayer({
+            url: 'http://mapsengine.google.com/map/kml?mid=zGbE2jKzDt_k.kgqSgkvmX9NE&amp;lid=zGbE2jKzDt_k.kVtRyo9p7cb0'
+        });
+        ctaLayer.setMap(map);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+
+<div id="map"></div>
