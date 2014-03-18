@@ -76,11 +76,6 @@
   score: 1
   attended: [1]
 
-- name: Phil
-  gravatar: 6b280328ebb187f206ac98c07c8f31db
-  score: 0
-  attended: []
-
 - name: Rowan
   gravatar: f26aa0910feb115695cbbe8e0ce77db0
   score: 2
