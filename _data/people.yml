@@ -66,6 +66,11 @@
   score: 1
   attended: [1]
 
+- name: Meat Scrooge
+  gravatar: 4d778bf9447b2711a0a5ce6547948019
+  score: 0
+  attended: []
+
 - name: Nick
   gravatar: 817e0147892e552d0dca7963f87db64c
   score: 2
@@ -75,11 +80,6 @@
   gravatar: bf2038b1c3492a00dde1b78dd13495bf
   score: 1
   attended: [1]
-
-- name: Phil
-  gravatar: 6b280328ebb187f206ac98c07c8f31db
-  score: 0
-  attended: []
 
 - name: Rowan
   gravatar: f26aa0910feb115695cbbe8e0ce77db0
