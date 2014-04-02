@@ -14,10 +14,10 @@
     </p>
     {% if include.ended %}
         <h4>Attendees</h4>
-        <ul>
+        <ul class="secret-list inline-list">
             {% for person in site.data.people %}
                 {% if person.attended contains event.id %}
-                    <li>{{person.name}}</li>
+                    <li>{% include people/avatar.html size=40 person=person %}</li>
                 {% endif %}
             {% endfor %}
         </ul>
