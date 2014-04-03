@@ -20,7 +20,23 @@ make setup
 
 The setup script will install all of the dependencies you need to run the site. Pay attention to the output, as this will tell you if anything went wrong.
 
-Build and serve the site with `make serve`. This will make the site available to you on http://localhost:4000/.
+Later, if you need to update dependencies, you can run this script again.
+
+
+Running The Site
+----------------
+
+To build and serve the site, and make it available to you on http://localhost:4000/, run the following:
+
+```sh
+make serve
+```
+
+To watch and compile front-end assets, run the following commands:
+
+```sh
+make css
+```
 
 
 Development

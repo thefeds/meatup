@@ -49,10 +49,10 @@ deps:
 # BUILD TARGETS
 # =============
 
-# Build the site
-build:
-	@jekyll build --drafts
-
 # Serve the site
 serve:
 	@jekyll serve --watch --drafts
+
+# Watch and compile the CSS
+css:
+	@sass --watch --style compressed ./_assets/styles/site.scss:./assets/site.min.css
