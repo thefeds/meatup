@@ -2,6 +2,5 @@
 // Vendor styles
 @import "../vendor/pigeon/lib/pigeon";
 
-body {
-    padding: 20px;
-}
+// Core site styles
+@import "core/layout";

@@ -4,23 +4,35 @@ description: The Monthly FED MEATup, where the Nature front-end developers (and 
 layout: page
 ---
 
+<div role="banner" class="section">
+    <div class="section-inner">
+        <h1>MEATup</h1>
+        <p class="cramp">
+            The Monthly FED MEATup, where the Nature front-end developers (and friends) eat lots of MEAT, and go for a few drinks.
+        </p>
+    </div>
+</div>
 
-<h1>MEATup</h1>
+<div class="section">
+    <div class="section-inner">
+        <h2 id="next-meatup">The Next MEATup</h2>
+        {% include event/next.html %}
+    </div>
+</div>
 
-<p>The Monthly FED MEATup, where the Nature front-end developers (and friends) eat lots of MEAT, and go for a few drinks.</p>
+<div class="section">
+    <div class="section-inner">
+        <h2 id="leaderboard">Leaderboard</h2>
+        {% include people/leaderboard.html %}
+    </div>
+</div>
 
-
-<h2 id="next-meatup">The Next MEATup</h2>
-{% include event/next.html %}
-
-
-<h2 id="leaderboard">Leaderboard</h2>
-{% include people/leaderboard.html %}
-
-
-<h2 id="past-meatups">Past MEATups</h2>
-{% include event/past.html %}
-
+<div class="section">
+    <div class="section-inner">
+        <h2 id="past-meatups">Past MEATups</h2>
+        {% include event/past.html %}
+    </div>
+</div>
 
 <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyB_sDtkFpFLp8VWghrQIymQrXSKT-ActHE&sensor=false"></script>
 <script src="assets/js/past-map.js"></script> -->

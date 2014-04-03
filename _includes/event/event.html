@@ -1,7 +1,7 @@
 
 <div id="meatup-{{event.id}}">
     <h3 class="cramp">MEATup #{{event.id}}</h3>
-    <p class="space-less">
+    <p class="cramp">
         {{event.date | date: '%A %d %B, %Y'}}
         at
         {% if event.venue.website %}
@@ -14,7 +14,7 @@
     </p>
     {% if include.ended %}
         <h4 class="hide">Attendees</h4>
-        <ul class="blocklineup">
+        <ul class="space-above-less blocklineup">
             {% for person in site.data.people %}
                 {% if person.attended contains event.id %}
                     <li>{% include people/avatar.html size=40 person=person %}</li>
