@@ -5,6 +5,7 @@ hostname: meatup.info
 
 # Jekyll config
 exclude:
+  - bower.json
   - CNAME
   - Gemfile
   - Gemfile.lock

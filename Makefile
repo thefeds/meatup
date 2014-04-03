@@ -43,6 +43,7 @@ check-bundler:
 deps:
 	@bundle install
 	@npm install
+	@./node_modules/.bin/bower install
 
 
 # BUILD TARGETS
