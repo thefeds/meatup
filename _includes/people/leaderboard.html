@@ -1,10 +1,10 @@
 
 {% assign people = site.data.people | sort: 'score' %}
-<table>
+<table class="table table-is-wide table-is-striped">
     <thead>
         <tr>
             <th>#</th>
-            <th colspan="2">MEATer</th>
+            <th>MEATer</th>
             <th>Score</th>
         </tr>
     </thead>
@@ -12,8 +12,10 @@
         {% for person in people reversed %}
             <tr>
                 <td>{{forloop.index}}</td>
-                <td>{% include people/avatar.html size=40 person=person %}</td>
-                <td>{{person.name}}</td>
+                <td>
+                    {% include people/avatar.html size=40 person=person %}
+                    {{person.name}}
+                </td>
                 <td>{{person.score}}</td>
             </tr>
         {% endfor %}

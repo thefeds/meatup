@@ -1,8 +1,8 @@
 
-<ol class="secret-list">
+<ol class="stack">
     {% for event in site.data.events reversed %}
         {% unless forloop.first %}
-            <li>
+            <li class="space">
                 {% include event/event.html ended=true %}
             </li>
         {% endunless %}
