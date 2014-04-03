@@ -17,7 +17,7 @@
                 </td>
                 <td class="leaderboard-col-person">
                     {% include people/avatar.html size=40 person=person itemprop=true %}
-                    <span itemprop="name">{{person.name}}</span>
+                    <span itemprop="name" class="person-name">{{person.name}}</span>
                 </td>
                 <td class="leaderboard-col-score">
                     {% assign events_attended = person.attended | size %}

@@ -26,6 +26,15 @@
         background-color: #222;
     }
 }
+@media only screen and (max-width: 400px) {
+    .leaderboard td {
+        vertical-align: top;
+    }
+    .leaderboard .person-name {
+        display: block;
+    }
+}
+
 .leaderboard-col-rank .circle-outlined {
     border-color: #444;
 }
