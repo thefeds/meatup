@@ -6,7 +6,11 @@ hostname: meatup.info
 # Jekyll config
 exclude:
   - CNAME
+  - Gemfile
+  - Gemfile.lock
   - Makefile
+  - node_modules
+  - package.json
   - README.md
 future: false
 lsi: false
