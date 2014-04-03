@@ -2,6 +2,7 @@
 // Site sections
 .section {
     @include rem(padding, $pigeon-type-line-height);
+    @include rem(margin-bottom, $pigeon-type-line-height * 3);
 }
 .section-inner {
     max-width: 800px;

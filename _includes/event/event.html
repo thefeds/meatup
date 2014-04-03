@@ -1,23 +1,38 @@
 
-<div id="meatup-{{event.id}}">
-    <h3 class="cramp">MEATup #{{event.id}}</h3>
+<div id="meatup-{{event.id}}" itemscope itemtype="http://schema.org/FoodEvent">
+    <h3 class="cramp" itemprop="name">MEATup #{{event.id}}</h3>
     <p class="cramp">
-        {{event.date | date: '%A %d %B, %Y'}}
+        <time datetime="{{event.date}}" itemprop="startDate">
+            {{event.date | date: '%A %d %B, %Y'}}
+        </time>
         at
-        {% if event.venue.website %}
-            <a href="{{event.venue.website}}">{{ event.venue.name }}</a>.
-        {% else %}
-            {{event.venue.name}}.
-        {% endif %}
-        <br/>
-        <a href="{{event.url}}">View the event page</a>.
+        <span itemprop="location" itemscope itemtype="http://schema.org/FoodEstablishment">
+            {% if event.venue.website %}
+                <a href="{{event.venue.website}}" itemprop="url">
+                    <span itemprop="name">{{event.venue.name}}</span>
+                </a>
+            {% else %}
+                <span itemprop="name">{{event.venue.name}}</span>
+            {% endif %}
+        </span>
     </p>
+    <a href="{{event.url}}" itemprop="url">
+        {% if include.ended %}
+            View the event page
+        {% else %}
+            Register your attendance!<br/>
+            <small>(seriously, what are you waiting for?)</small>
+        {% endif %}
+    </a>
     {% if include.ended %}
         <h4 class="hide">Attendees</h4>
         <ul class="space-above-less blocklineup">
             {% for person in site.data.people %}
                 {% if person.attended contains event.id %}
-                    <li>{% include people/avatar.html size=40 person=person %}</li>
+                    <li itemprop="attendee" itemscope itemtype="http://schema.org/Person">
+                        <meta itemprop="name" content="{{person.name}}"/>
+                        {% include people/avatar.html size=40 person=person itemprop=true %}
+                    </li>
                 {% endif %}
             {% endfor %}
         </ul>

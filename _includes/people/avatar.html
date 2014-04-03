@@ -1,2 +1,11 @@
 
-<img src="http://www.gravatar.com/avatar/{{include.person.gravatar}}.png?s={{include.size}}&amp;d=http%3A%2F%2Fmeatup.info%2Fimage%2Fdefault-avatar.jpg" alt="{{include.person.name}}" title="{{include.person.name}}" width="{{include.size}}" height="{{include.size}}"/>
+<img
+    src="http://www.gravatar.com/avatar/{{include.person.gravatar}}.png?s={{include.size}}&amp;d=http%3A%2F%2Fmeatup.info%2Fimage%2Fdefault-avatar.jpg"
+    alt="{{include.person.name}}"
+    title="{{include.person.name}}"
+    width="{{include.size}}"
+    height="{{include.size}}"
+    {% if include.itemprop %}
+        itemprop="image"
+    {% endif %}
+/>

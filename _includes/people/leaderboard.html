@@ -10,11 +10,11 @@
     </thead>
     <tbody>
         {% for person in people reversed %}
-            <tr>
+            <tr itemscope itemtype="http://schema.org/Person">
                 <td>{{forloop.index}}</td>
                 <td>
-                    {% include people/avatar.html size=40 person=person %}
-                    {{person.name}}
+                    {% include people/avatar.html size=40 person=person itemprop=true %}
+                    <span itemprop="name">{{person.name}}</span>
                 </td>
                 <td>{{person.score}}</td>
             </tr>
