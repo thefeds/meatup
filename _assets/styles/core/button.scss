@@ -6,13 +6,17 @@
     border-radius: 10px;
     background-color: #900;
     font-weight: bold;
-    @include rem(line-height, $pigeon-type-size);
     text-decoration: none;
 
+    &, small {
+        @include rem(line-height, $pigeon-type-size);
+    }
     &, &:visited {
         color: #f7e7e7;
     }
     small {
+        display: block;
+        @include rem(margin-top, $pigeon-type-line-height / 4);
         color: #e7c0c0;
     }
 }
