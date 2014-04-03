@@ -1,0 +1,40 @@
+
+// Leaderboard styles
+.leaderboard {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+
+    img, span {
+        display: inline-block;
+        line-height: 40px;
+        margin: 0;
+        padding: 0;
+        vertical-align: middle;
+    }
+    img {
+        margin-right: 10px;
+    }
+    tbody tr {
+        border-bottom: 1px dashed #999;
+    }
+    .circle {
+        display: inline-block;
+        min-width: 40px;
+        line-height: 40px;
+        text-align: center;
+        background-color: #222;
+    }
+}
+.leaderboard-col-rank .circle-outlined {
+    border-color: #444;
+}
+.leaderboard-col-score {
+    text-align: right;
+    .score-0 {
+        border-color: #444;
+    }
+    .score-max {
+        border-color: #f1c061;
+    }
+}

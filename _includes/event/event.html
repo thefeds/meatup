@@ -1,6 +1,6 @@
 
-<div id="meatup-{{event.id}}" itemscope itemtype="http://schema.org/FoodEvent">
-    <h3 class="cramp" itemprop="name">MEATup #{{event.id}}</h3>
+<div id="meatup-{{event.id}}" class="box" itemscope itemtype="http://schema.org/FoodEvent">
+    <h3 class="space-less" itemprop="name">MEATup #{{event.id}}</h3>
     <p class="cramp">
         <time datetime="{{event.date}}" itemprop="startDate">
             {{event.date | date: '%A %d %B, %Y'}}
@@ -16,17 +16,9 @@
             {% endif %}
         </span>
     </p>
-    <a href="{{event.url}}" itemprop="url">
-        {% if include.ended %}
-            View the event page
-        {% else %}
-            Register your attendance!<br/>
-            <small>(seriously, what are you waiting for?)</small>
-        {% endif %}
-    </a>
     {% if include.ended %}
         <h4 class="hide">Attendees</h4>
-        <ul class="space-above-less blocklineup">
+        <ul class="space-above-less lineup">
             {% for person in site.data.people %}
                 {% if person.attended contains event.id %}
                     <li itemprop="attendee" itemscope itemtype="http://schema.org/Person">
@@ -37,4 +29,12 @@
             {% endfor %}
         </ul>
     {% endif %}
+    <a href="{{event.url}}" class="button space-above-less" itemprop="url">
+        {% if include.ended %}
+            View the event page
+        {% else %}
+            Register your attendance!<br/>
+            <small>(seriously, what are you waiting for?)</small>
+        {% endif %}
+    </a>
 </div>

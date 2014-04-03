@@ -1,6 +1,32 @@
 
+// Vendor config: type
+$pigeon-type-face-heading: Arvo, serif;
+$pigeon-type-color-link: #c00 !default;
+$pigeon-type-color-link-visited: #900 !default;
+$pigeon-type-size: 18px;
+$pigeon-type-line-height: 30px;
+$pigeon-type-size-small: 16px;
+$pigeon-type-line-height-small: 30px;
+$pigeon-type-size-6: 25px;
+$pigeon-type-line-height-6: 35px;
+$pigeon-type-size-5: 30px;
+$pigeon-type-line-height-5: 40px;
+$pigeon-type-size-4: 35px;
+$pigeon-type-line-height-4: 45px;
+$pigeon-type-size-3: 40px;
+$pigeon-type-line-height-3: 50px;
+$pigeon-type-size-2: 45px;
+$pigeon-type-line-height-2: 55px;
+$pigeon-type-size-1: 60px;
+$pigeon-type-line-height-1: 70px;
+
 // Vendor styles
 @import "../vendor/pigeon/lib/pigeon";
 
 // Core site styles
-@import "core/layout";
+@import "core/section";
+@import "core/box";
+@import "core/circle";
+@import "core/button";
+@import "core/type";
+@import "core/leaderboard";

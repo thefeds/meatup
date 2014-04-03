@@ -17,12 +17,13 @@
     <meta name="viewport" content="width=device-width"/>
     <!--[if gt IE 7]><!-->
         <link rel="stylesheet" href="/assets/site.min.css"/>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arvo:700">
     <!--<![endif]-->
     <link rel="icon" href="/favicon.png" type="image/png"/>
     <link rel="shortcut icon" href="/favicon.ico"/>
 
 </head>
-<body>
+<body class="section-style-wood">
 
     <!--[if lte IE 8]>
         <p style="background:#ffc;margin:0;padding:10px;">
@@ -36,12 +37,20 @@
     <![endif]-->
 
     <div role="main">
+        <div role="banner" class="section centered">
+            <div class="section-inner">
+                <h1 class="space-above">MEATup</h1>
+                <p class="cramp box">
+                    The Monthly FED MEATup, where the Nature front-end developers (and friends) eat lots of MEAT, and go for a few drinks.
+                </p>
+            </div>
+        </div>
         {{content}}
     </div>
 
-    <div role="contentinfo" class="section">
+    <div role="contentinfo" class="section centered">
         <div class="section-inner">
-            <small>
+            <small class="box">
                 Copyright &copy; {{site.time | date: '%Y'}};
                 This site is <a href="https://github.com/thefeds/meatup">hosted on GitHub</a>
             </small>

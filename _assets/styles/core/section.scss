@@ -1,0 +1,28 @@
+
+// Site sections
+.section {
+    @include rem(padding, ($pigeon-type-line-height * 2) $pigeon-type-line-height);
+}
+.section-inner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.section-heading {
+    display: inline-block;
+    border-bottom: 4px dotted $pigeon-type-color; 
+}
+
+// Chalk section
+.section-style-chalk {
+    background: #222 url("images/chalk-board.jpg") repeat center;
+    color: #eee;
+
+    .section-heading {
+        border-bottom: 4px dotted #eee; 
+    }
+}
+
+// Wood section
+.section-style-wood {
+    background: #d6c6ad url("images/wood.jpg") repeat center;
+}

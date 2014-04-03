@@ -1,0 +1,18 @@
+
+// Button styling
+.button {
+    @include rem(padding, ($pigeon-type-line-height / 4) ($pigeon-type-line-height / 2));
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #900;
+    font-weight: bold;
+    @include rem(line-height, $pigeon-type-size);
+    text-decoration: none;
+
+    &, &:visited {
+        color: #f7e7e7;
+    }
+    small {
+        color: #e7c0c0;
+    }
+}
