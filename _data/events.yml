@@ -28,5 +28,13 @@
   date: 2014-04-10
   url: http://attending.io/events/fed-meatup-3
   venue:
+    name: Byron
+    website: http://www.byronhamburgers.com/
+
+# MEATup the fourth
+- id: 4
+  date: 2014-05-06
+  url: http://attending.io/events/fed-meatup-4
+  venue:
     name: Flat Iron
     website: http://flatironsteak.co.uk/
