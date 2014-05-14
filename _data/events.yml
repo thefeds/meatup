@@ -38,3 +38,9 @@
   venue:
     name: Flat Iron
     website: http://flatironsteak.co.uk/
+
+# MEATup the fifth
+- id: 5
+  date: 2014-06-10
+  venue:
+    name: TBC

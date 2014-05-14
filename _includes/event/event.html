@@ -29,12 +29,16 @@
             {% endfor %}
         </ul>
     {% endif %}
-    <a href="{{event.url}}" class="button space-above-less" itemprop="url">
-        {% if include.ended %}
-            View the event page
-        {% else %}
-            Register your attendance!
-            <small>(seriously, what are you waiting for?)</small>
-        {% endif %}
-    </a>
+    {% if event.url %}
+        <a href="{{event.url}}" class="button space-above-less" itemprop="url">
+            {% if include.ended %}
+                View the event page
+            {% else %}
+                Register your attendance!
+                <small>(seriously, what are you waiting for?)</small>
+            {% endif %}
+        </a>
+    {% else %}
+        <em>Registration coming soon</em>
+    {% endif %}
 </div>
