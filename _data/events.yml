@@ -3,14 +3,12 @@
 
 # id = the ID of the MEATup, just the event number really
 # date = the date of the MEATup in YYYY-MM-DD format
-# url = the event page URL on attending.io
 # venue.name = the name of the venue (or "Undecided")
 # venue.website = (optional) the venue website
 
 # MEATup the first
 - id: 1
   date: 2014-02-13
-  url: http://attending.io/events/fed-meatup-1
   venue:
     name: Honest Burgers
     website: http://honestburgers.co.uk/
@@ -18,7 +16,6 @@
 # MEATup the second
 - id: 2
   date: 2014-03-13
-  url: http://attending.io/events/fed-meatup-2
   venue:
     name: Red Dog Saloon
     website: http://www.reddogsaloon.co.uk/
@@ -26,7 +23,6 @@
 # MEATup the third
 - id: 3
   date: 2014-04-10
-  url: http://attending.io/events/fed-meatup-3
   venue:
     name: Byron
     website: http://www.byronhamburgers.com/
@@ -34,7 +30,6 @@
 # MEATup the fourth
 - id: 4
   date: 2014-05-13
-  url: http://attending.io/events/fed-meatup-4
   venue:
     name: Flat Iron
     website: http://flatironsteak.co.uk/

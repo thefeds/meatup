@@ -29,16 +29,12 @@
             {% endfor %}
         </ul>
     {% endif %}
-    {% if event.url %}
-        <a href="{{event.url}}" class="button space-above-less" itemprop="url">
-            {% if include.ended %}
-                View the event page
-            {% else %}
-                Register your attendance!
-                <small>(seriously, what are you waiting for?)</small>
-            {% endif %}
+    {% unless include.ended %}
+        <a href="mailto:attend@meatup.info?subject=MEATup %23{{event.id}}&amp;body=I'd like to attend MEATup %23{{event.id}} on {{event.date | date: '%A %d %B, %Y'}}." class="button space-above-less">
+            Register your attendance!
+            <small>(seriously, what are you waiting for?)</small>
         </a>
-    {% else %}
-        <em>Registration coming soon</em>
-    {% endif %}
+        <br/>
+        <em><small>(or email attend@meatup.info)</small></em>
+    {% endunless %}
 </div>
