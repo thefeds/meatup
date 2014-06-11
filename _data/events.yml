@@ -40,3 +40,9 @@
   venue:
     name: Hala
     website: http://www.halarestaurant.co.uk/
+
+# MEATup the sixth
+- id: 6
+  date: 2014-07-08
+  venue:
+    name: TBD

@@ -38,8 +38,8 @@
 
 - name: Glynn
   gravatar: 1fb120f261d488bd708243ab07c16a6e
-  score: 4
-  attended: [1, 2, 3, 4]
+  score: 5
+  attended: [1, 2, 3, 4, 5]
 
 - name: Hollie
   gravatar: 885b97e01afa8715d4d27b4343e24cc1
@@ -48,13 +48,13 @@
 
 - name: Jack
   gravatar: e7efe42a13b08f7b0c25f735b710882c
-  score: 0
-  attended: []
+  score: 1
+  attended: [5]
 
 - name: Jansher
   gravatar: 5fcd57d71aa49d0dd2fad9ad02acd9eb
-  score: 1
-  attended: [4]
+  score: 2
+  attended: [4, 5]
 
 - name: Jose
   gravatar: 69ee153df5bde2f63d63b463be459e1d
@@ -83,8 +83,8 @@
 
 - name: Nick
   gravatar: 817e0147892e552d0dca7963f87db64c
-  score: 2
-  attended: [1, 2]
+  score: 3
+  attended: [1, 2, 5]
 
 - name: Perry
   gravatar: bf2038b1c3492a00dde1b78dd13495bf
@@ -93,8 +93,8 @@
 
 - name: Rowan
   gravatar: f26aa0910feb115695cbbe8e0ce77db0
-  score: 4
-  attended: [1, 2, 3, 4]
+  score: 5
+  attended: [1, 2, 3, 4, 5]
 
 - name: Sam
   gravatar: 635ed9558eab9d8fe26a6ce195fe3e5a
