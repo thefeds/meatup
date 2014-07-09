@@ -47,3 +47,9 @@
   venue:
     name: Dukes Brew & Que
     website: http://dukesbrewandque.com/
+
+# MEATup the seventh
+- id: 7
+  date: 2014-08-12
+  venue:
+    name: TBD
