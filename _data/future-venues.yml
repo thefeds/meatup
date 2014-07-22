@@ -1,11 +1,32 @@
 
 # List of potential MEATup venues.
 
-- MEATmission
-- MEATmarket
-- MEATliquor
-- Bodeans
-- Pitt Cue
-- Steak and Lobster
-- Burger and Lobster
-- Herman Ze German
+# name = the name of the venue
+# website = (optional) the venue website
+
+- name: MEATmarket
+  website: http://www.themeatmarket.co.uk/
+
+- name: MEATliquor
+  website: http://meatliquor.com/london/
+
+- name: Bodeans
+  website: http://www.bodeansbbq.com/
+
+- name: Pitt Cue
+  website: http://www.pittcue.co.uk/home/
+
+- name: Steak and Lobster
+  website: http://www.steakandlobster.com/
+
+- name: Burger and Lobster
+  website: http://www.burgerandlobster.com/
+
+- name: Herman Ze German
+  website: http://www.hermanzegerman.com/
+
+- name: Bukowski Grill
+  website: http://www.bukowski-grill.co.uk/
+
+- name: Hache Burgers
+  website: http://www.hacheburgers.com/
