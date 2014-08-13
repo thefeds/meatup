@@ -4,12 +4,6 @@
 # name = the name of the venue
 # website = (optional) the venue website
 
-- name: MEATmarket
-  website: http://www.themeatmarket.co.uk/
-
-- name: MEATliquor
-  website: http://meatliquor.com/london/
-
 - name: Bodeans
   website: http://www.bodeansbbq.com/
 
