@@ -54,3 +54,9 @@
   venue:
     name: MEATmission
     website: http://www.meatmission.com/
+
+# MEATup the eighth
+- id: 8
+  date: 2014-09-09
+  venue:
+    name: TBC
