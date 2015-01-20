@@ -17,6 +17,6 @@ future: false
 lsi: false
 markdown: kramdown
 permalink: /posts/:title/
-pygments: true
+highlighter: pygments
 safe: true
 timezone: Europe/London
