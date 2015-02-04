@@ -8,18 +8,23 @@
 
 - name: Adam
   gravatar: 3136b684c4b781915b61b6c600d426ab
-  score: 5
-  attended: [1, 2, 3, 4, 6]
+  score: 6
+  attended: [1, 2, 3, 4, 6, 8]
 
 - name: Alex
   gravatar: b9b142c0c1d118390b605dd14bf87f2c
   score: 2
   attended: [1, 3]
 
-- name: Andrew
+- name: Andrew M
+  gravatar: 31514e9d3b85dd75f8e78445a1a00e4d
+  score: 1
+  attended: [8]
+
+- name: Andrew W
   gravatar: f098cc175d4c424ceab347f897e08bf5
-  score: 6
-  attended: [1, 2, 3, 4, 6, 7]
+  score: 7
+  attended: [1, 2, 3, 4, 6, 7, 8]
 
 - name: Dan
   gravatar: bee5843b9118e5b869d908d13bf1dab5
@@ -53,8 +58,13 @@
 
 - name: Jansher
   gravatar: 5fcd57d71aa49d0dd2fad9ad02acd9eb
-  score: 3
-  attended: [4, 5, 7]
+  score: 4
+  attended: [4, 5, 7, 8]
+
+- name: Jasmine
+  gravatar: 3bc7dd539afd7624d7a22b19e8bf6e01
+  score: 1
+  attended: [8]
 
 - name: Jose
   gravatar: 69ee153df5bde2f63d63b463be459e1d
@@ -63,8 +73,8 @@
 
 - name: Jude
   gravatar: 0abba8c023667a16e939e2d6ada9eb5a
-  score: 0
-  attended: []
+  score: 1
+  attended: [8]
 
 - name: Laura
   gravatar: ca5f4087c5885d15d99eaee223a655ab
@@ -73,13 +83,13 @@
 
 - name: Lisa
   gravatar: 172192ea5ce8d34b57dd4c7aa729ed8a
-  score: 1
-  attended: [7]
+  score: 2
+  attended: [7, 8]
 
 - name: Leigh
   gravatar: cb5aeb536e3c1a47d2021bfe257326d7
-  score: 1
-  attended: [7]
+  score: 2
+  attended: [7, 8]
 
 - name: Luke
   gravatar: ff11381944f2d57133bcb7030d22e6c3
@@ -98,8 +108,8 @@
 
 - name: Nick
   gravatar: 817e0147892e552d0dca7963f87db64c
-  score: 4
-  attended: [1, 2, 5, 6]
+  score: 5
+  attended: [1, 2, 5, 6, 8]
 
 - name: Perry
   gravatar: bf2038b1c3492a00dde1b78dd13495bf
@@ -108,8 +118,8 @@
 
 - name: Rowan
   gravatar: f26aa0910feb115695cbbe8e0ce77db0
-  score: 7
-  attended: [1, 2, 3, 4, 5, 6, 7]
+  score: 8
+  attended: [1, 2, 3, 4, 5, 6, 7, 8]
 
 - name: Sam H
   gravatar: 9176e80027df72b434e2cc0c9d0e04fb
