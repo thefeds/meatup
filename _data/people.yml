@@ -8,8 +8,8 @@
 
 - name: Adam
   gravatar: 3136b684c4b781915b61b6c600d426ab
-  score: 6
-  attended: [1, 2, 3, 4, 6, 8]
+  score: 7
+  attended: [1, 2, 3, 4, 6, 8, 9]
 
 - name: Alex
   gravatar: b9b142c0c1d118390b605dd14bf87f2c
@@ -23,8 +23,8 @@
 
 - name: Andrew W
   gravatar: f098cc175d4c424ceab347f897e08bf5
-  score: 7
-  attended: [1, 2, 3, 4, 6, 7, 8]
+  score: 8
+  attended: [1, 2, 3, 4, 6, 7, 8, 9]
 
 - name: Dan
   gravatar: bee5843b9118e5b869d908d13bf1dab5
@@ -43,8 +43,8 @@
 
 - name: Glynn
   gravatar: 1fb120f261d488bd708243ab07c16a6e
-  score: 6
-  attended: [1, 2, 3, 4, 5, 6]
+  score: 7
+  attended: [1, 2, 3, 4, 5, 6, 9]
 
 - name: Hollie
   gravatar: 885b97e01afa8715d4d27b4343e24cc1
@@ -118,8 +118,8 @@
 
 - name: Rowan
   gravatar: f26aa0910feb115695cbbe8e0ce77db0
-  score: 8
-  attended: [1, 2, 3, 4, 5, 6, 7, 8]
+  score: 9
+  attended: [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 - name: Sam H
   gravatar: 9176e80027df72b434e2cc0c9d0e04fb
